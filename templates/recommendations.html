@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Your recommendations</title>
+		<style>
+		.column {
+				float: left;
+				width: 50%;
+		}
+
+		/* Clear floats after the columns */
+		.row:after {
+				content: "";
+				display: table;
+				clear: both;
+		}
+		h2
+		{
+			text-align:center;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="row">
+			<div class="column">
+				<h2>Item based</h2>
+				<ul>
+					<li> {{ film1[0] }}</li>
+					<li> {{ film1[1] }}</li>
+					<li> {{ film1[2] }}</li>
+					<li> {{ film1[3] }}</li>
+					<li> {{ film1[4] }}</li>
+					<li> {{ film1[5] }}</li>
+					<li> {{ film1[6] }}</li>
+					<li> {{ film1[7] }}</li>
+					<li> {{ film1[8] }}</li>
+					<li> {{ film1[9] }}</li>
+				</ul>				
+			</div>
+			<div class="column">
+				<h2>User based Naive</h2>
+				<ul>
+					<li> {{ film2[0] }}</li>
+					<li> {{ film2[1] }}</li>
+					<li> {{ film2[2] }}</li>
+					<li> {{ film2[3] }}</li>
+					<li> {{ film2[4] }}</li>
+					<li> {{ film2[5] }}</li>
+					<li> {{ film2[6] }}</li>
+					<li> {{ film2[7] }}</li>
+					<li> {{ film2[8] }}</li>
+					<li> {{ film2[9] }}</li>
+				</ul>	
+				
+			</div>
+		</div>
+        <div class="row">
+			<div class="column">
+				<h2>Used based SVD</h2>
+				<ul>
+					<li> {{ film3[0] }}</li>
+					<li> {{ film3[1] }}</li>
+					<li> {{ film3[2] }}</li>
+					<li> {{ film3[3] }}</li>
+					<li> {{ film3[4] }}</li>
+					<li> {{ film3[5] }}</li>
+					<li> {{ film3[6] }}</li>
+					<li> {{ film3[7] }}</li>
+					<li> {{ film3[8] }}</li>
+					<li> {{ film3[9] }}</li>
+				</ul>
+			</div>
+			<div class="column">
+
+			</div>
+		</div>
+	</body>
+</html>
